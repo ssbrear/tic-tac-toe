@@ -17,29 +17,75 @@
 }
 
 .card-title {
-    font-size: 160px;
+    font-size: 140px;
 }
 
 .card-subtitle {
     font-size: 40px;
 }
 
-#col-1, #col-2, #col-3, #col-4 {
+#col-1, #col-2, #col-3, #col-4{
     font-size: 80px;
     justify-content: center;
 }
 
-.card {
-    width: 50%;
-}
-
 .option {
     border: 1px solid black;
-    color: white;
+    overflow: hidden;
+    padding: 0;
 }
 
 #reset-button {
+    justify-content: center;
     margin-top: 16px;
     width: 150px;
     font-size: 40px;
+}
+
+@media (max-width: 1000px) {
+    .card-title {
+        font-size: 100px;
+    }
+    .card-subtitle {
+        font-size: 32px;
+    }
+    .option {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 850px) {
+    .card-title {
+        font-size: 80px;
+    }
+    .card-subtitle {
+        font-size: 24px;
+    }
+    .option {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .card-title {
+        font-size: 60px;
+    }
+    .card-subtitle {
+        font-size: 16px;
+    }
+    .option {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-title {
+        font-size: 40px;
+    }
+    .card-subtitle {
+        font-size: 16px;
+    }
+    .option {
+        font-size: 24px;
+    }
 }

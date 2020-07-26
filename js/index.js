@@ -3,6 +3,7 @@ var title = $("#title");
 var subtitle = $(".card-subtitle");
 var copyright = $("#copyright");
 var body = $("body");
+var card = $(".card");
 
 // Button and options
 var resetBtn = $("#reset-button");
@@ -154,3 +155,9 @@ function playerWin() {
 function computerWin() {
     subtitle.text("The computer has won!");
 }
+
+$(window).on('resize', function() {
+    if(($(window).width() <= 1750)&&(true)) {
+        return
+    }
+})

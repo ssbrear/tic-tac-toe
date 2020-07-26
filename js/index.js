@@ -155,9 +155,3 @@ function playerWin() {
 function computerWin() {
     subtitle.text("The computer has won!");
 }
-
-$(window).on('resize', function() {
-    if(($(window).width() <= 1750)&&(true)) {
-        return
-    }
-})

@@ -1,0 +1,45 @@
+#title {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+
+#copyright {
+    background-color: #888;
+}
+
+.card-title, .card-subtitle, .card-text {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 160px;
+}
+
+.card-subtitle {
+    font-size: 40px;
+}
+
+#col-1, #col-2, #col-3, #col-4 {
+    font-size: 80px;
+    justify-content: center;
+}
+
+.card {
+    width: 50%;
+}
+
+.option {
+    border: 1px solid black;
+    color: white;
+}
+
+#reset-button {
+    margin-top: 16px;
+    width: 150px;
+    font-size: 40px;
+}

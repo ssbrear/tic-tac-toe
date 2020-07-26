@@ -65,7 +65,7 @@ document.addEventListener("click", function(event) {
             playerWin();
             return;
         }
-        else if (p1 && p5 && p7){
+        else if (p1 && p4 && p7){
             playerWin();
             return;
         }
@@ -125,7 +125,7 @@ document.addEventListener("click", function(event) {
             computerWin();
             return;
         }
-        else if (c1 && c5 && c7){
+        else if (c1 && c4 && c7){
             computerWin();
             return;
         }

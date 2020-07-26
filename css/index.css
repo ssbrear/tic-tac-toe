@@ -33,6 +33,7 @@
     border: 1px solid black;
     overflow: hidden;
     padding: 0;
+    color: white;
 }
 
 #reset-button {
